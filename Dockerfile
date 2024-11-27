@@ -9,7 +9,7 @@ ARG DOTNETREPORTGENERATOR_VERSION=5.4.1
 # renovate: datasource=nuget packageName=dotnet-sonarscanner
 ARG DOTNETSONARSCANNER_VERSION=9.0.2
 # renovate: datasource=nuget packageName=SpecFlow.Plus.LivingDoc.CLI
-ARG SPECFLOWLIVINGDOCCLI_VERSION=3.9.5
+ARG SPECFLOWLIVINGDOCCLI_VERSION=3.9.57
 # renovate: datasource=nuget packageName=csharpier
 ARG CSHARPIER_VERSION=0.30.2
 # renovate: datasource=nuget packageName=Cake.Tool
