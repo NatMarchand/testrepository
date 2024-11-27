@@ -7,12 +7,12 @@ ARG DOTNETSONARSCANNER_VERSION=6.0.0
 ARG SPECFLOWLIVINGDOCCLI_VERSION=3.0.0
 ARG CSHARPIER_VERSION=0.30.0
 ARG CAKETOOL_VERSION=4.0.0
-RUN dotnet tool install dotnet-ef --version $DOTNETEF_VERSION --tool-path /app/.dotnet/tools \
-    dotnet tool install GitVersion.Tool --version $GITVERSIONTOOL_VERSION --tool-path /app/.dotnet/tools \
-    dotnet tool install dotnet-reportgenerator-globaltool --version $DOTNETREPORTGENERATOR_VERSION --tool-path /app/.dotnet/tools \
-    dotnet tool install dotnet-sonarscanner --version $DOTNETSONARSCANNER_VERSION --tool-path /app/.dotnet/tools \
-    dotnet tool install SpecFlow.Plus.LivingDoc.CLI --version $SPECFLOWLIVINGDOCCLI_VERSION --tool-path /app/.dotnet/tools \
-    dotnet tool install csharpier --version $CSHARPIER_VERSION --tool-path /app/.dotnet/tools \
+RUN dotnet tool install dotnet-ef --version $DOTNETEF_VERSION --tool-path /app/.dotnet/tools && \
+    dotnet tool install GitVersion.Tool --version $GITVERSIONTOOL_VERSION --tool-path /app/.dotnet/tools && \
+    dotnet tool install dotnet-reportgenerator-globaltool --version $DOTNETREPORTGENERATOR_VERSION --tool-path /app/.dotnet/tools && \
+    dotnet tool install dotnet-sonarscanner --version $DOTNETSONARSCANNER_VERSION --tool-path /app/.dotnet/tools && \
+    dotnet tool install SpecFlow.Plus.LivingDoc.CLI --version $SPECFLOWLIVINGDOCCLI_VERSION --tool-path /app/.dotnet/tools && \
+    dotnet tool install csharpier --version $CSHARPIER_VERSION --tool-path /app/.dotnet/tools && \
     dotnet tool install Cake.Tool --version $CAKETOOL_VERSION --tool-path /app/.dotnet/tools
 
 ENV ORAS_VERSION=1.1.0
