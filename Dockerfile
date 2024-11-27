@@ -1,7 +1,7 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0.404-jammy@sha256:4d0de0f52f1252139b2709c9fc2f7bb23155fd8e33936a44a6ebfb02df0ec45c
 
 # renovate: datasource=nuget packageName=dotnet-ef
-ARG DOTNETEF_VERSION=8.0.0
+ARG DOTNETEF_VERSION=8.0.11
 # renovate: datasource=nuget packageName=GitVersion.Tool
 ARG GITVERSIONTOOL_VERSION=5.0.0
 # renovate: datasource=nuget packageName=dotnet-reportgenerator-globaltool
