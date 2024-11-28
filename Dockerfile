@@ -16,7 +16,7 @@ ARG SPECFLOWLIVINGDOCCLI_VERSION=3.9.57
 # renovate: datasource=nuget packageName=csharpier
 ARG CSHARPIER_VERSION=0.30.2
 # renovate: datasource=nuget packageName=Cake.Tool
-ARG CAKETOOL_VERSION=4.2.0
+ARG CAKETOOL_VERSION=5.0.0
 RUN dotnet tool install dotnet-ef --version $DOTNETEF_VERSION --tool-path /app/.dotnet/tools && \
     dotnet tool install GitVersion.Tool --version $GITVERSIONTOOL_VERSION --tool-path /app/.dotnet/tools && \
     dotnet tool install dotnet-reportgenerator-globaltool --version $DOTNETREPORTGENERATOR_VERSION --tool-path /app/.dotnet/tools && \
