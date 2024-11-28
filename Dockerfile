@@ -1,5 +1,8 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0.404-jammy@sha256:4d0de0f52f1252139b2709c9fc2f7bb23155fd8e33936a44a6ebfb02df0ec45c
 
+
+# renovate: datasource=nuget packageName=Devtools
+ARG DEVTOOLS_VERSION=9.0.0
 # renovate: datasource=nuget packageName=dotnet-ef
 ARG DOTNETEF_VERSION=9.0.0
 # renovate: datasource=nuget packageName=GitVersion.Tool
