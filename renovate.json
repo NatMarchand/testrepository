@@ -8,6 +8,19 @@
   "prHourlyLimit": 5,
   "prConcurrentLimit": 0,
   "timezone": "Europe/Paris",
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "Devtools"
+      ],
+      "matchDatasources": [
+        "nuget"
+      ],
+      "registryUrls": [
+        "https://nuget.pkg.github.com/LuccaSA/index.json"
+      ]
+    }
+  ],
   "customManagers": [
     {
       "customType": "regex",
