@@ -13,8 +13,8 @@
       "matchPackageNames": [
         "Devtools"
       ],
-      "matchDatasources": [
-        "nuget"
+      "matchManagers": [
+        "regex"
       ],
       "registryUrls": [
         "https://nuget.pkg.github.com/LuccaSA/index.json"
