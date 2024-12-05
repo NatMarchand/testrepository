@@ -29,4 +29,4 @@ RUN dotnet tool install dotnet-ef --version $DOTNETEF_VERSION --tool-path /app/.
 ENV ORAS_VERSION=1.2.0
 
 # renovate: datasource=github-releases packageName=volta-cli/volta
-ENV VOLTA_VERSION=2.0.1
+ENV VOLTA_VERSION=2.0.2
