@@ -14,7 +14,7 @@ ARG DOTNETSONARSCANNER_VERSION=9.0.2
 # renovate: datasource=nuget packageName=SpecFlow.Plus.LivingDoc.CLI
 ARG SPECFLOWLIVINGDOCCLI_VERSION=3.9.57
 # renovate: datasource=nuget packageName=csharpier
-ARG CSHARPIER_VERSION=0.30.2
+ARG CSHARPIER_VERSION=0.30.3
 # renovate: datasource=nuget packageName=Cake.Tool
 ARG CAKETOOL_VERSION=4.2.0
 RUN dotnet tool install dotnet-ef --version $DOTNETEF_VERSION --tool-path /app/.dotnet/tools && \
