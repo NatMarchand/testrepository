@@ -26,7 +26,7 @@ RUN dotnet tool install dotnet-ef --version $DOTNETEF_VERSION --tool-path /app/.
     dotnet tool install Cake.Tool --version $CAKETOOL_VERSION --tool-path /app/.dotnet/tools
 
 # renovate: datasource=github-releases packageName=oras-project/oras
-ENV ORAS_VERSION=1.2.0
+ENV ORAS_VERSION=1.2.2
 
 # renovate: datasource=github-releases packageName=volta-cli/volta
 ENV VOLTA_VERSION=2.0.1
