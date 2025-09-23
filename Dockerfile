@@ -10,7 +10,7 @@ ARG GITVERSIONTOOL_VERSION=5.12.0
 # renovate: datasource=nuget packageName=dotnet-reportgenerator-globaltool
 ARG DOTNETREPORTGENERATOR_VERSION=5.4.1
 # renovate: datasource=nuget packageName=dotnet-sonarscanner
-ARG DOTNETSONARSCANNER_VERSION=9.0.2
+ARG DOTNETSONARSCANNER_VERSION=10.4.1
 # renovate: datasource=nuget packageName=SpecFlow.Plus.LivingDoc.CLI
 ARG SPECFLOWLIVINGDOCCLI_VERSION=3.9.57
 # renovate: datasource=nuget packageName=csharpier
