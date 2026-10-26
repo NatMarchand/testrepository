@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:8.0.404-jammy@sha256:4d0de0f52f1252139b2709c9fc2f7bb23155fd8e33936a44a6ebfb02df0ec45c
+FROM mcr.microsoft.com/dotnet/sdk:8.0.427-jammy@sha256:b785ee74da0c5963f50f80f4e960313e327134928b889d3a40ec8be68c7dbe8f
 
 
 # renovate: datasource=nuget depName=Devtools packageName=Devtools
